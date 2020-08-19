@@ -20,7 +20,7 @@ html {
   box-shadow: 5px 5px 20px;
 }
 .banner {
-  background: url("img/Quiz.png");
+  background: url("Quiz.png");
   background-size: cover;
   height: 75vh;
 }
@@ -74,15 +74,15 @@ header {
   border: 0.5rem solid #fff;
 }
 .cricket {
-  background: url("img/games.svg");
+  background: url("games.svg");
   background-size: cover;
 }
 .bollywood {
-  background: url("img/film.svg");
+  background: url("film.svg");
   background-size: cover;
 }
 .space {
-  background: url("img/space.svg");
+  background: url("space.svg");
   background-size: cover;
 }
 .bollywood a {
