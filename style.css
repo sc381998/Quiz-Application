@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+body {
+  height: 100vh;
+}
+html {
+  font-size: 62.5%;
+}
+/* Rules.html */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 75vh;
+  margin: 5rem auto;
+
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  box-shadow: 5px 5px 20px;
+}
+.banner {
+  background: url("img/Quiz.png");
+  background-size: cover;
+  height: 75vh;
+}
+.h1,
+h1 {
+  font-size: 4.5rem;
+}
+.leftSec {
+  width: 40%;
+  height: 100%;
+  padding: 1.5rem;
+}
+.rightSec {
+  width: 60%;
+  height: 100%;
+  background-color: rgb(66, 13, 116);
+  color: #fff;
+  padding: 1.5rem;
+}
+header {
+  width: 85%;
+  height: 20%;
+}
+.rulesTitle2 {
+  display: flex;
+  justify-content: center;
+}
+.rules {
+  line-height: 2rem;
+  width: 80%;
+  font-size: 1.2rem;
+  margin: 8rem auto;
+}
+.categories {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cricket,
+.space,
+.bollywood {
+  height: 45%;
+  width: 45%;
+  border: 0.4rem solid rgb(170, 121, 216);
+  border-radius: 1rem;
+}
+.cricket:hover,
+.space:hover,
+.bollywood:hover {
+  border: 0.5rem solid #fff;
+}
+.cricket {
+  background: url("img/games.svg");
+  background-size: cover;
+}
+.bollywood {
+  background: url("img/film.svg");
+  background-size: cover;
+}
+.space {
+  background: url("img/space.svg");
+  background-size: cover;
+}
+.bollywood a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.cricket a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.cricket:hover {
+}
+.space a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-inner img {
+  width: 100%;
+  background-size: cover;
+}
+.question {
+  margin: 0 0 26rem 15rem;
+}
+h2 {
+  font-size: 3.5rem;
+}
+.ques {
+  width: 35rem;
+  font-size: 1.8rem;
+  margin-top: 2rem;
+}
+.option {
+  display: flex !important;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
+  width: 50%;
+  margin: 0 0 0 auto;
+}
+.opt {
+  border: 0.5rem solid white;
+  border-radius: 1rem;
+  width: 40%;
+  padding: 2rem;
+  margin: 1rem;
+}
+.opt:hover {
+  background: orangered;
+}
+.option1 .opt2:hover {
+  background: greenyellow;
+}
+.option2 .opt3:hover {
+  background: greenyellow;
+}
+.option3 .opt4:hover {
+  background: greenyellow;
+}
+.question2,
+.option2 {
+  color: #000;
+}
+.option2 .opt {
+  border: 0.5rem solid #000;
+}
+
+.question2,
+.question3 {
+  margin: 0 0 26rem -30rem;
+}
+.option2,
+.option3 {
+  margin: 0 0 0 0;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1) sepia(1) saturate(5) hue-rotate(175deg);
+}
+.quesImage {
+  margin: 0 0rem -17rem 72rem;
+}
+.option .score {
+  margin: 0px 29px -100px auto;
+}
+
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 390px) {
+  .rules {
+    line-height: 2rem;
+    width: 80%;
+    font-size: 0.8rem;
+    margin: 5rem 0;
+  }
+}
